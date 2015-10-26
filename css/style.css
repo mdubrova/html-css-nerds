@@ -1,0 +1,168 @@
+body {
+	font-family: Roboto, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: white;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font: 11px sans-serif;
+}
+
+.main-header{
+	background: #EEE;
+	margin: 0 auto;
+}
+
+.container-clearfix{
+	margin: 0 auto;
+    width: 880px;
+}
+
+.main-navigation{
+    height: 57px;
+}
+
+.logo{
+	float: left;
+}
+
+.header-menu{
+    width: 520px;
+    font-size: 14px;
+    float: left;
+    min-height: 20px;
+    margin-left: 95px;
+}
+
+.header-menu a, .cart{
+    color: #000;
+    padding-bottom: 8px;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.cart{
+	margin-top: -37px;
+    padding-left: 25px;
+    float: right;
+}
+
+.container-clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header-slider {
+    margin: 50px auto;
+    height: 300px;
+    position: relative;
+}
+
+.left-slider-column {
+    margin-top: 30px;
+    width: 360px;
+    float: left;
+}
+
+.right-slider-column {
+    width: 340px;
+    float: right;
+}
+
+.header-slider-menu {
+    position: absolute;
+    top: 195px;
+    left: 50%;
+    width: 60px;
+    padding: 0 5px;
+    margin-left: -30px;
+}
+
+.btn {
+    color: #FFF;
+    background: #FB565A;
+    border-radius: 3px;
+    padding: 10px 0;
+    width: 240px;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+}
+.slider-btn {
+    margin-top: 25px;
+}
+
+.green-btn {
+    background: #00CA74;
+}
+
+.yellow-btn {
+    background: #EFC84A;
+}
+
+.header-menu li {
+    margin-right: 37px;
+    display: inline-block;
+}
+
+.projects {
+    height: 360px;
+    margin-top: 80px;
+}
+
+.projects li {
+    vertical-align: top;
+    display: inline-block;
+    width: 242px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.project-item li {
+	padding: 5px;
+}
+
+.project-title {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.about-left {
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+}
+
+.about-right {
+    width: 240px;
+    float: right;
+    margin-top: 20px;
+  
+}
+
+.links {
+    margin: 350px;
+    padding: 0 22px 32px;
+    display: inline;
+}
+
+.links li {
+    margin-right: 110px;
+    display: inline-block;
+ 
+}

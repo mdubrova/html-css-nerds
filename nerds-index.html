@@ -2,87 +2,111 @@
 <html>
    <head>
       <meta charset="utf-8">
+      <link href='css/style.css' rel='stylesheet' type='text/css'>
       <title>nerds</title>
    </head>
    <body>      
     <header class="main-header">
-     <div class="container clearfix">
+     <div class="container-clearfix">
       <div class="logo">
-        <img src="img/logo.png" width="368" height="204" alt="nerds logo">
+        <img src="img/logo.png" width="139" height="56" alt="nerds logo">
        </div>
       <nav class="main-navigation">
-       <ul>
-        <li>
+       <ul class="header-menu">
+        <li class="inline-item">
           <a href="#">СТУДИЯ</a>
         </li>
-        <li>
+        <li class="inline-item">
           <a href="#">КЛИЕНТЫ</a>
         </li>
-        <li>
+        <li class="inline-item">
           <a href="#">МАГАЗИН</a>
         </li>
-        <li>
+        <li class="inline-item">
           <a href="#">КОНТАКТЫ</a>
         </li>            
        </ul>
       </nav>       
-      <a href="#" class="cart">Корзина</a>
-      </div>      
-     <h1>Долго, дорого, скурпулезно.</h1>
-     <p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
-     <a href="#" class="button">узнать больше</a>
-     <div class="slider">     
-	  <a href="#" class="round-button active"></a>
-	  <a href="#" class="round-button"></a>
-	  <a href="#" class="round-button"></a>
-	  <img src="img/image.png">
-	</div>  
+      <a href="#" class="cart">Корзина</a> 
+     <div class="header-slider">
+      <div class="slider-item">
+        <div class="left-slider-column">
+         <h1>Долго, дорого, скурпулезно.</h1>
+         <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+         <a href="#" class="slider-btn btn">узнать больше</a>
+        </div>
+        <div class="right-slider-column">
+         <img src="img/slider1.png" alt="slider1">
+        </div>
+      </div>
+      <div class="header-slider-menu">
+        <a href="#" class="round-btn active js-change-slide"></a>
+        <a href="#" class="round-btn js-change-slide"></a>
+        <a href="#" class="round-btn js-change-slide"></a>
+      </div>
+     </div>
+     </div>
     </header>        
      <div class="container">
-     <section class="projects">
-      <div class="project-item">
-        <img src="img/projects_1.png">
-        <div class="project-title">ВЕБ-САЙТЫ</div>          
-          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a class="button" href="#">заказать</a>
+      <div class="container-clearfix">
+       <ul class="projects">
+        <li class="project-item">
+          <img src="img/projects_1.png">
+          <div class="project-title">ВЕБ-САЙТЫ</div>          
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="project-btn btn" href="#">заказать</a>
+          </li>
+          <li class="project-item">
+            <img src="img/projects_2.png">
+            <div class="project-title">ПРИЛОЖЕНИЯ</div>          
+            <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
+            <a class="project-btn green-btn btn" href="#">заказать</a>
+          </li>
+          <li class="project-item">
+            <img src="img/projects_3.png">
+            <div class="project-title">ПРЕЗЕНТАЦИИ</div>          
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class="project-btn yellow-btn btn" href="#">заказать</a>
+          </li>
+        </ul>
+        <div class="about-us">
+          <div class="about-left">
+         <h2>
+          Мы - маленькая, но гордая	дизайн-студия из Краснодара
+         </h2>
+         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет Выше креатива. Работаем не покладая рук, как роботы</p>
+         <h3>
+          ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:
+         </h3> 
+         <ul>
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+         </ul>
+       </div>
+
+       <div class="about-right">
+        <img src="img/logo.png">
+        <h3>
+          КАК МЫ РАБОТАЕМ:
+        </h3>
+        <ul>
+          <li>C самоотдачей на 146%</li>
+          <li>Соблюдая сроки на 100%</li>
+          <li>По предоплате 50%</li>
+        </ul>
+       </div>
+            
         </div>
-        <div class="project-item">
-          <img src="img/projects_2.png">
-          <div class="project-title">ПРИЛОЖЕНИЯ</div>          
-          <p>Покорите топ-10 приложений в AppStrore и Google Play</p>
-          <a class="button" href="#">заказать</a>
+
+        <div class="links">
+         <ul>
+      		<li><a href="#"><img src="img/glukhanko.png"></a></li>
+      		<li><a href="#"><img src="img/htmlacademy.png"></a></li>
+      		<li><a href="#"><img src="img/borodinski.png"></a></li>
+  	   </ul>
         </div>
-        <div class="project-item">
-          <img src="img/projects_3.png">
-          <div class="project-title">ПРЕЗЕНТАЦИИ</div>          
-          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a class="button" href="#">заказать</a>
-        </div>
-      </section>
-      <section class="about-us">
-       <h2>
-        Мы - маленькая, но гордая	дизайн-студия из Краснодара
-       </h2>
-       <img src="img/about_us.png">   
-       <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет Выше креатива. Работаем не покладая рук, как роботы</p>
-       <h3>
-        ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ: КАК МЫ РАБОТАЕM:
-       </h3> 
-       <ul>
-        <li>Веб-сайтов любой сложности С самоотдачей на 146%</li>
-        <li>Мобильных приложений для iOS и Android Соблюдая сроки на 100%</li>
-        <li>Слайдшоу и видео для корпоративных презентаций По предоплате на 50%</li>
-       </ul>
-           
-      </section>
-      <section class="links">
-       <ul>
-		<li><a href="#"><img src="img/glukhanko.png"></a></li>
-		<li><a href="#"><img src="img/htmlacademy.png"></a></li>
-		<li><a href="#"><img src="img/borodinski.png"></a></li>
-	   </ul>
-      </section>
-          
+      </div>      
      </div>
     <footer class="main-footer">
      <div class="footer-map">			
