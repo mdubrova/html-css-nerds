@@ -142,19 +142,6 @@ a {
     text-transform: uppercase;
 }
 
-.about-left {
-    width: 400px;
-    float: left;
-    margin-left: 30px;
-}
-
-.about-right {
-    width: 240px;
-    float: right;
-    margin-top: 20px;
-  
-}
-
 .links {
     margin: 350px;
     padding: 0 22px 32px;
@@ -165,4 +152,40 @@ a {
     margin-right: 110px;
     display: inline-block;
  
+}
+
+.about-us-title-left{
+    float: left;
+    display: inline-block;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.about-us-title-right{
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.about-us-slogan-left{
+    float: left;
+    display: inline-block;
+    width: 600px;
+    margin-left: 30px;
+    
+}
+
+.about-us-slogan-right{
+    display: inline-block;
+}
+s
+.about-us-work-left{
+    float: left;
+    display: inline-block;
+    width: 600px;
+    margin-left: 30px;
+}
+
+.about-us-work-right{
+    display: inline-block;
+    margin-top: 63px;
 }
