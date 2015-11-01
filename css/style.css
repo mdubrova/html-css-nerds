@@ -96,7 +96,7 @@ a {
     background: #FB565A;
     border-radius: 3px;
     padding: 10px 0;
-    width: 240px;
+    width: 210px;
     text-align: center;
     text-transform: uppercase;
     display: block;
@@ -149,9 +149,8 @@ a {
 }
 
 .links li {
-    margin-right: 110px;
+    margin-right: 70px;
     display: inline-block;
- 
 }
 
 .about-us-title-left{
@@ -189,3 +188,25 @@ s
     display: inline-block;
     margin-top: 63px;
 }
+
+.footer-map {
+    background: #E5E5E5 url(../img/map.jpg) no-repeat top center;
+    height: 256px;
+    padding: 80px 0;
+}
+
+.footer-contacts {
+    background: #FFF;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 250px;
+}
+
+.slogan {
+    margin-top: -12px;
+    width: 560px;
+    float: right;
+}
+
