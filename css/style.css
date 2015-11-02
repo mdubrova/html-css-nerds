@@ -15,9 +15,10 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
-    font: 11px sans-serif;
+    color: #504C4C;
+    font: 17px sans-serif;
 }
+
 
 .main-header{
 	background: #EEE;
@@ -210,3 +211,91 @@ s
     float: right;
 }
 
+.welcome {
+    margin-left: 110px;
+    margin-top: 80px;
+    height: 150px;
+    font-size: 35px;
+}
+
+.main-filter {
+    width: 243px;
+    float: left;
+}
+
+.range-controls {
+    background: #F1F1F1;    
+    border-radius: 4px;
+    position: relative;
+    padding: 0 30px;
+    width: 170px;
+    height: 80px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.price-controls {
+    margin-top: 14px;
+}
+
+.price-controls input {
+    font: 300 16px sans-serif;
+    background: #F1F1F1;
+    border: 0;
+    border-radius: 4px;
+    width: 60px;
+    padding: 8px 10px;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.content {
+    width: 560px;
+    float: right;
+}
+
+.items-filter li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.items-filter {
+    margin-left: -30px;
+
+}
+
+.filter-title {
+    font: bold;
+    font-size: 18px;
+}
+
+.items li {
+    background: url(../img/browser.png) no-repeat 0 0;
+    padding-top: px;
+    margin: 20px 80px 0 0;
+    width: 170px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.pagination .btn {
+    background: #F1F1F1;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid #F1F1F1;
+    border-radius: 4px;
+    padding: 10px 16px;
+    width: 5px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.pagination .active-btn {
+    background: #FFF;
+}
+
+.pagination .next-btn {
+    width: 135px;
+}
