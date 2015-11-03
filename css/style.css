@@ -224,14 +224,26 @@ s
 }
 
 .range-controls {
-    background: #F1F1F1;    
+    background: #F1F1F1;
     border-radius: 4px;
     position: relative;
     padding: 0 30px;
-    width: 170px;
+    width: 180px;
     height: 80px;
     margin-top: 25px;
     overflow: hidden;
+}
+
+.scale {
+    margin-top: 39px;
+    background: #DADEE0;
+    height: 2px;
+}
+
+.scale-bar {
+    background: #00CA74;
+    width: 60%;
+    height: 2px;
 }
 
 .price-controls {
@@ -239,9 +251,11 @@ s
 }
 
 .price-controls input {
-    font: 300 16px sans-serif;
+    font: 300 16px 'Roboto' sans-serif;
     background: #F1F1F1;
     border: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
     border-radius: 4px;
     width: 60px;
     padding: 8px 10px;
@@ -269,14 +283,25 @@ s
     font-size: 18px;
 }
 
+.items {
+    width: 560px;
+    float: right;
+}
+
 .items li {
-    background: url(../img/browser.png) no-repeat 0 0;
-    padding-top: px;
+    background: url(../img/browser.jpg) no-repeat 0 0;
+    padding-top: 30px;
     margin: 20px 80px 0 0;
     width: 170px;
     display: inline-block;
     position: relative;
     cursor: pointer;
+}
+
+.pagination {
+    margin-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .pagination .btn {
@@ -299,3 +324,24 @@ s
 .pagination .next-btn {
     width: 135px;
 }
+
+.hover-item {
+    background: url(../img/hover_item.jpg) no-repeat 0 0;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: block;
+    width: 140px;
+    min-height: 140px;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.hover-item .btn {
+    width: 140px;
+}
+
