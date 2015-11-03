@@ -174,10 +174,12 @@ a {
     
 }
 
-.about-us-slogan-right{
+.about-us-slogan-right {
     display: inline-block;
+    margin-top: 17px;
+    margin-left: 35px;
 }
-s
+
 .about-us-work-left{
     float: left;
     display: inline-block;
@@ -187,7 +189,7 @@ s
 
 .about-us-work-right{
     display: inline-block;
-    margin-top: 63px;
+    margin-top: 18px;
 }
 
 .footer-map {
