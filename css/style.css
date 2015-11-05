@@ -276,6 +276,14 @@ s
     cursor: pointer;
 }
 
+.min-toggle {
+    top: 31px;
+}
+
+.max-toggle {
+    top: 31px;
+    left: 125px;
+}
 
 .price-controls {
     margin-top: 14px;
