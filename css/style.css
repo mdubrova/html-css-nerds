@@ -23,6 +23,11 @@ a {
 .main-header{
 	background: #EEE;
 	margin: 0 auto;
+    height: 328px; 
+}
+
+.main-header .container-clearfix {
+    padding-top: 27px;
 }
 
 .container-clearfix{
@@ -30,34 +35,39 @@ a {
     width: 880px;
 }
 
-.main-navigation{
-    height: 57px;
-}
-
 .logo{
 	float: left;
 }
 
-.header-menu{
-    width: 520px;
-    font-size: 14px;
-    float: left;
-    min-height: 20px;
-    margin-left: 95px;
-}
-
-.header-menu a, .cart{
-    color: #000;
-    padding-bottom: 8px;
-    font-size: 14px;
-    line-height: 30px;
-    text-transform: uppercase;
-}
-
-.cart{
-	margin-top: -37px;
-    padding-left: 25px;
+.bucket {
     float: right;
+    display: table;
+}
+
+.bucket-cell {
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.main-navigation{
+    height: 57px;
+}
+
+.header-menu-container {
+    float: left;
+    display: table;
+    margin-left: 80px;
+}
+
+.header-menu-container-cell {
+    display: table-cell;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-menu {
+    margin: 0;
 }
 
 .container-clearfix:after {
@@ -216,6 +226,12 @@ s
     margin-top: 80px;
     height: 150px;
     font-size: 35px;
+}
+
+.welcome-container {
+    clear: both;
+    text-align: center;
+    padding-top: 74px;
 }
 
 .main-filter {
