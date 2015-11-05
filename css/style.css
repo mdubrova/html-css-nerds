@@ -174,12 +174,10 @@ a {
     
 }
 
-.about-us-slogan-right {
+.about-us-slogan-right{
     display: inline-block;
-    margin-top: 17px;
-    margin-left: 35px;
 }
-
+s
 .about-us-work-left{
     float: left;
     display: inline-block;
@@ -189,7 +187,7 @@ a {
 
 .about-us-work-right{
     display: inline-block;
-    margin-top: 18px;
+    margin-top: 63px;
 }
 
 .footer-map {
@@ -221,8 +219,7 @@ a {
 }
 
 .main-filter {
-    width: 243px;
-    float: left;
+    width: 240px;
 }
 
 .range-controls {
@@ -248,6 +245,22 @@ a {
     height: 2px;
 }
 
+.toggle {
+    background: #ABABAB;
+    width: 4px;
+    height: 4px;
+    border: 7px solid #FFF;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 2px 0 0 #D1D1D1;
+    -moz-box-shadow: 0 2px 0 0 #D1D1D1;
+    box-shadow: 0 2px 0 0 #D1D1D1;
+    position: absolute;
+    cursor: pointer;
+}
+
+
 .price-controls {
     margin-top: 14px;
 }
@@ -270,40 +283,67 @@ a {
     float: right;
 }
 
-.items-filter li {
-    display: inline;
-    margin-left: 15px;
-}
-
-.items-filter {
-    margin-left: -30px;
-
-}
-
 .filter-title {
     font: bold;
     font-size: 18px;
 }
 
+.items ul {
+    padding-left: 0;
+    margin: 0;
+}
+
 .items {
     width: 560px;
     float: right;
+    padding-top: 25px;    
 }
 
 .items li {
-    background: url(../img/browser.jpg) no-repeat 0 0;
-    padding-top: 30px;
-    margin: 20px 80px 0 0;
-    width: 170px;
     display: inline-block;
-    position: relative;
-    cursor: pointer;
+    cursor: pointer; 
+    margin-bottom: 80px;   
 }
 
-.pagination {
-    margin-left: 50px;
-    margin-top: 70px;
-    margin-bottom: 70px;
+.items li:nth-child(odd) {
+    padding-right: 75px;
+}
+
+.items li:nth-child(even) {
+    padding-right: 0;
+}
+
+.item-container {
+    background: url(../img/browser.jpg) no-repeat 0 0;
+    width: 240px;
+    height: 240px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.div-hover {
+    display: none;
+}
+
+.item-container:hover .div-hover {
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    top:50px;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.hoverButton {
+    color: #FFF;
+    background: #FB565A;
+    border-radius: 3px;
+    padding: 12px 36px;
+    text-align: center;
+    text-transform: uppercase;
+    border:0;
 }
 
 .pagination .btn {
@@ -327,23 +367,29 @@ a {
     width: 135px;
 }
 
-.hover-item {
-    background: url(../img/hover_item.jpg) no-repeat 0 0;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    display: block;
-    width: 140px;
-    min-height: 140px;
-    padding: 30px;
-    background-color: white;
-    text-align: center;
-
+.left-bar {
+    width: 240px;
+    float: left;
 }
 
-.hover-item .btn {
-    width: 140px;
+.price-label {
+    font-size: 1.17em;
 }
 
+.main-content {
+    margin: 80px auto;
+}
+
+.sort-list {
+    padding-left: 0;
+    display: inline;
+}
+
+.sort-list li {
+    margin-left: 45px;
+    display: inline;
+}
+
+.sort-list li:first-child {
+    margin-left: 40px;
+}
