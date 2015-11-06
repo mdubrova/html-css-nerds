@@ -26,6 +26,10 @@ a {
     height: 328px; 
 }
 
+.index-header{
+    height: 460px;
+}
+
 .main-header .container-clearfix {
     padding-top: 27px;
 }
@@ -76,10 +80,8 @@ a {
     clear: both;
 }
 
-.header-slider {
-    margin: 50px auto;
-    height: 300px;
-    position: relative;
+.header-content {
+    padding-top: 100px;
 }
 
 .left-slider-column {
@@ -113,7 +115,7 @@ a {
     display: block;
 }
 .slider-btn {
-    margin-top: 25px;
+    float: left;
 }
 
 .green-btn {
@@ -154,14 +156,22 @@ a {
 }
 
 .links {
-    margin: 350px;
-    padding: 0 22px 32px;
-    display: inline;
+    border-bottom: 2px solid #EFEFEF;
+    margin-bottom: 70px;
 }
 
 .links li {
-    margin-right: 70px;
+    margin-right: 110px;
     display: inline-block;
+    vertical-align: middle;    
+    margin: 30px;
+}
+
+.about-us {
+    border-top: 2px solid #EFEFEF;
+    border-bottom: 2px solid #EFEFEF;
+    min-height: 325px;
+    padding: 74px 0;
 }
 
 .about-us-title-left{
@@ -178,16 +188,16 @@ a {
 
 .about-us-slogan-left{
     float: left;
-    display: inline-block;
-    width: 600px;
+    display: inline-block;    
     margin-left: 30px;
-    
+    width: 600px;
 }
 
 .about-us-slogan-right{
-    display: inline-block;
+    padding-right: 150px;
+    float: right;
 }
-s
+
 .about-us-work-left{
     float: left;
     display: inline-block;
@@ -196,8 +206,8 @@ s
 }
 
 .about-us-work-right{
-    display: inline-block;
-    margin-top: 63px;
+    display: inline-block;    
+    float: right;
 }
 
 .footer-map {
