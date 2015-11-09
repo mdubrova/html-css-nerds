@@ -19,6 +19,9 @@ a {
     font: 17px sans-serif;
 }
 
+li {
+    list-style: none;
+}
 
 .main-header{
 	background: #EEE;
@@ -201,13 +204,23 @@ a {
 .about-us-work-left{
     float: left;
     display: inline-block;
-    width: 600px;
+    width: 500px;
     margin-left: 30px;
 }
 
 .about-us-work-right{
     display: inline-block;    
     float: right;
+}
+
+.orders-list {
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.orders-list li {
+    background: url(../img/marker_list.png) 0 20px no-repeat;
+    padding-left: 35px;
 }
 
 .footer-map {
@@ -426,4 +439,75 @@ a {
 
 .sort-list li:first-child {
     margin-left: 40px;
+}
+
+.social-friends {
+    margin-top: 70px;
+    height: 140px;
+    vertical-align: bottom;
+}
+
+.center-layout {
+    margin: 0 auto;
+    width: 880px;
+}
+
+.social-btns {
+    float: left;
+}
+
+.slogan {
+    margin-top: -12px;
+    width: 560px;
+    float: right;
+}
+
+.slogan-big {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.slogan p {
+    margin-top: 5px;
+}
+
+.btn-social {
+    background: #F1F1F1;
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+}
+
+.social-btns .inst {
+    background: url(../img/social.png) no-repeat -45px 3px;
+}
+
+.social-btns .fb {
+    background: url(../img/social.png) no-repeat -20px 0;
+}
+
+.social-btns .vk {
+    background: url(../img/social.png) no-repeat 3px 3px;
+}
+
+.social-btns span {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    display: block;
+    width: 19px;
+    height: 23px;
+}
+
+.social-btns li {
+    margin-right: 25px;
+    vertical-align: top;
+    display: inline-block;
 }
