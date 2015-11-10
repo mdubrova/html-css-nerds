@@ -57,6 +57,13 @@ li {
     vertical-align: middle;
 }
 
+.cart {
+    
+    padding-left: 25px;
+    float: right;
+    background: url(../img/cart.png) 0 2px no-repeat;
+}
+
 .main-navigation{
     height: 57px;
 }
@@ -100,11 +107,27 @@ li {
 
 .header-slider-menu {
     position: absolute;
-    top: 195px;
+    top: 360px;
     left: 50%;
-    width: 60px;
     padding: 0 5px;
     margin-left: -30px;
+}
+
+.header-slider-menu .active {
+    background: #C1C1C1;
+}
+
+.header-slider-menu .round-btn {
+    border: 3px solid #FFF;
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 4px;
+    height: 4px;
+    display: inline-block;
+}
+
+.header-slider-menu:last-child {
+    margin-right: 0;
 }
 
 .btn {
