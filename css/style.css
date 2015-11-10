@@ -23,6 +23,11 @@ li {
     list-style: none;
 }
 
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
 .main-header{
 	background: #EEE;
 	margin: 0 auto;
@@ -592,4 +597,12 @@ input[type="radio"], input[type="checkbox"] {
     background: #EEE;
     margin-top: 40px;
     color: #464444;
+}
+
+.footer-map-label {
+    position: relative;
+    top: 35px;
+    left: 40px;
+    float: right;
+    margin-right: 150px;
 }
