@@ -308,10 +308,8 @@ img {
     padding-left: 35px;
 }
 
-.footer-map {
-    background: #E5E5E5 url(../img/map.jpg) no-repeat top center;
-    height: 256px;
-    padding: 80px 0;
+.map {
+    height: 460px;
 }
 
 .footer-contacts {
