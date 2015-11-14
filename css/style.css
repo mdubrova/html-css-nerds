@@ -206,17 +206,57 @@ img {
     display: block;
 }
 
+.btn:hover{
+    background: #d6494d
+}
+
+.btn:active{
+    background: #b63538
+}
+
 .green-btn {
     background: #00CA74;
+}
+
+.green-btn:hover{
+    background: #01a25e
+}
+
+.green-btn:active{
+    background: #009053
 }
 
 .yellow-btn {
     background: #EFC84A;
 }
 
+.yellow-btn:hover{
+    background: #d6ae2c
+}
+
+.yellow-btn:active{
+    background: #c09b24
+}
+
 .header-menu li {
     margin-right: 37px;
     display: inline-block;
+}
+
+.header-menu li a:hover {
+    color: #fb565a
+}
+
+.bucket-cell a:hover {
+    color: #fb565a
+}
+
+.header-menu li a:active {
+    color: #d0d0d0
+}
+
+.bucket-cell a:active {
+    color: #d0d0d0
 }
 
 .projects {
@@ -253,6 +293,18 @@ img {
     display: inline-block;
     vertical-align: middle;    
     margin: 30px;
+}
+
+.links li a img{
+    opacity: 0.2;
+}
+
+.links li a img:hover {
+     opacity: 1;
+}
+
+.links li a img:active {
+      opasity: 1;
 }
 
 .about-us {
@@ -318,7 +370,13 @@ img {
     width: 200px;
     height: 200px;
     float: left;
-    margin-left: 250px;
+    left: 200px;
+    top: 80px;
+    position: absolute;
+}
+
+.footer-map {
+    position: relative;
 }
 
 .slogan {
@@ -489,6 +547,15 @@ img {
     display: inline-block;
 }
 
+.pagination .btn:hover {
+    background: #e5e5e5;
+}
+
+.pagination .btn:active {
+    background: #d5d5d5;
+    border-top: 2px solid #b5b5b5;
+}
+
 .pagination .active-btn {
     background: #FFF;
 }
@@ -566,6 +633,23 @@ img {
     display: block;
     border-radius: 50%;
     position: relative;
+}
+
+.btn-social:hover {
+    background: #fb565a;
+}
+
+.btn-social:active {
+    background: #d6494d;
+
+}
+
+.hoverButton:hover {
+    background: #d6494d;
+}
+
+.hoverButton:active {
+    background: #b63538;
 }
 
 .social-btns .inst {
@@ -656,7 +740,7 @@ input[type="radio"], input[type="checkbox"] {
 
 .footer-map-label {
     position: relative;
-    top: 35px;
+    top: -381px;
     left: 40px;
     float: right;
     margin-right: 150px;
