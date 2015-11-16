@@ -330,6 +330,12 @@ img {
     width:960px;
 }
 
+.project-btn.btn  {
+    width: 141px;
+    margin-left: 1px;
+    margin-top: 34px;
+}
+
 .projects {
     height: 360px;
     margin-top: 56px;
