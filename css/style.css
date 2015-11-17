@@ -753,7 +753,7 @@ img {
 }
 
  .features {
-    margin-top: 50px;
+    
  }
 
 .main-filter label {
@@ -762,13 +762,16 @@ img {
     cursor: pointer;
 }
 
-.grid label:before, .features label:before {
-    content: "";
+.grid label:before {
+    content: '\25cb';
     position: absolute;
     width: 20px;
     height: 20px;
     margin-left: -30px;
-    background: url(../img/radio_not_check.png) no-repeat;
+    font-family: "symbols-nerds";
+    opacity: 0.8;
+    color: gray;
+    
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -777,6 +780,7 @@ input[type="radio"], input[type="checkbox"] {
 
 .grid li, .features li {
     margin-bottom: 15px;
+    margin-left: -30px;
 }
 
 .grid label, .features label {
@@ -786,7 +790,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .grid input[type="radio"]:checked ~ label:before {
-    background: url(../img/radio_check.png) no-repeat;
+    content: '\25cf'
 }
 
 .features {
@@ -794,10 +798,19 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .features input[type="checkbox"]:checked ~ label:before {
-    background: url(../img/checkbox_check.png) no-repeat;
+    content: '\2611';
+    font-family: "symbols-nerds";
+    opacity: 0.8;
+    color: gray;
 }
+
 .features label:before {
-    background: url(../img/checkbox_not_check.png) no-repeat;
+   content: '\2610';
+    font-family: "symbols-nerds";
+    opacity: 0.8;
+    color: gray;
+    margin-left: -30px;
+    position: absolute;
 }
 
 .show-btn {
@@ -805,6 +818,15 @@ input[type="radio"], input[type="checkbox"] {
     background: #EEE;
     margin-top: 40px;
     color: #464444;
+}
+
+.show-btn:hover {
+    background: #e5e5e5;
+}
+
+.show-btn:active {
+    background: #d5d5d5;
+    border-top: 2px solid #b5b5b5;
 }
 
 .footer-map-label {
